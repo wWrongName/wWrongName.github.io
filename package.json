@@ -1,0 +1,37 @@
+{
+  "name": "home_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "bootstrap": "^5.1.0",
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2",
+    "regenerator-runtime": "^0.13.9",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.49.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node node_modules/webpack/bin/webpack.js serve --host 0.0.0.0 --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wWrongName/wWrongName.github.io.git"
+  },
+  "author": "wWrongName",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wWrongName/wWrongName.github.io/issues"
+  },
+  "homepage": "https://github.com/wWrongName/wWrongName.github.io#readme"
+}
