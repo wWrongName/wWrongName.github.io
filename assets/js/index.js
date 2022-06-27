@@ -5,9 +5,12 @@ import "regenerator-runtime/runtime.js"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../css/index.css"
+import "../css/navbar.css"
+import "../css/card.css"
 
 import HNavbar from "./HNavbar"
 import Links   from "./Links"
+import About from "./About"
 
 
 class Root extends React.Component {
@@ -32,7 +35,7 @@ class Root extends React.Component {
             case this.menu.home:
                 return <>home</>
             case this.menu.about:
-                return <>about</>
+                return <About />
             case this.menu.links:
                 return <Links />
             default:   

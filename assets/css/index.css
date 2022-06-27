@@ -1,9 +1,20 @@
-.links-position {
-    margin-top: 100px;
-    margin-right: 0;
-    margin-left: 0;
+:root {
+    --color1: #0b1114;
+    --color2: #00f284;
+    --color3: #2d2d2e;
+    --color-empty: rgba(255, 255, 255, 0);
+    --border-radius1: 15px;
+    --navbar-margin : 10px
 }
 
-.card-title {
-    cursor: pointer;
+body {
+    background-color: var(--color3);
+}
+
+h1 {
+    color: var(--color2) !important;
+}
+
+a {
+    color: var(--color2) !important;
 }

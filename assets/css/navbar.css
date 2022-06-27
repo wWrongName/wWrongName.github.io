@@ -1,0 +1,13 @@
+.navbar-brand {
+    cursor: pointer;
+}
+
+.navbar {
+    border : 1px solid var(--color2);
+    border-radius: var(--border-radius1);
+    margin: var(--navbar-margin);
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+}

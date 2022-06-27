@@ -7,11 +7,11 @@ class HNavbar extends React.Component {
         super(props)
         this.items = {
             [this.props.menu.home] : {
-                name    : "wWrongName",
+                name    : "WWN",
                 action  : this.openPage.bind(this, this.props.menu.home)
             },
             [this.props.menu.about] : {
-                name    : "About",
+                name    : "about",
                 action  : this.openPage.bind(this, this.props.menu.about)
             },
             [this.props.menu.links] : {
